@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hello 👋"
+  },
+  "LocaleSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "label": "Language"
+  }
+}

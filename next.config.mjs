@@ -1,3 +1,5 @@
+import createNextIntlPlugin from 'next-intl/plugin'
+
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
@@ -9,4 +11,5 @@ const config = {
   eslint: { ignoreDuringBuilds: true },
 }
 
-export default config
+const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
+export default withNextIntl(config)
