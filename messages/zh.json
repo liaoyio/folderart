@@ -1,5 +1,9 @@
 {
-
+  "metaData": {
+    "title": "Folder Art 文件夹图标生成器",
+    "description": "Folder Art 是一款专为 macOS 与 Windows 11 打造的在线工具，允许你为文件夹自定义图标、添加文字、选择图标风格和文件夹样式。无需下载软件，轻松生成专属文件夹图标，一键保存使用。",
+    "keywords": "macOS 文件夹图标, Windows 文件夹图标, 自定义文件夹图标, 文件夹美化工具, Folder Art, 文件夹图标在线生成, 图标预设, 文件夹皮肤, 在线制作文件夹图标"
+  },
   "LocaleSwitcher": {
     "en": "English",
     "zh": "中文",
