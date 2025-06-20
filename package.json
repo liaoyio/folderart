@@ -12,7 +12,8 @@
     "gen:icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
-
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "next": "^15.3.1",
     "next-intl": "^4.1.0",
     "react": "^19.1.0",

@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { NextIntlClientProvider, useLocale } from 'next-intl'
 import { getLocale, getTranslations } from 'next-intl/server'
-import Header from '@/components/header'
+import { Vercel } from '@/components/analytics'
 
+import Header from '@/components/header'
 import { ThemeProvider } from '@/components/next-theme/provider'
 import { geistMono, geistSans } from '@/fonts'
 import { cn } from '@/lib/cn'
@@ -21,6 +22,7 @@ export default async function Layout({ children }: { children: ReactNode }) {
             <main className="p-6 flex-1 container mx-auto">{children}</main>
           </NextIntlClientProvider>
         </ThemeProvider>
+        <Vercel />
       </body>
     </html>
   )
