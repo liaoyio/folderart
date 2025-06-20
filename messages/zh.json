@@ -1,10 +1,26 @@
 {
-  "HomePage": {
-    "title": "你好 👋"
-  },
+
   "LocaleSwitcher": {
     "en": "English",
     "zh": "中文",
     "label": "语言"
+  },
+  "Configuration": {
+    "title": "配置项",
+    "os": "系统",
+    "text": "添加文字",
+    "color": "选择文件夹预设",
+    "selectOption": "选择一个选项或",
+    "clickOnFolder": "点击右侧文件夹",
+    "toChange": "更改预设",
+    "iconColor": "选择图标风格预设",
+    "download": "下载",
+    "downloading": "下载中...",
+    "downloaded": "下载完成",
+    "downloadFailed": "下载失败",
+    "adapt": "适应文件夹风格",
+    "original": "使用原始图标颜色",
+    "customIcon": "自定义图标",
+    "icons": "图标"
   }
 }

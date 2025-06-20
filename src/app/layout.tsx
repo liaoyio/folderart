@@ -19,11 +19,11 @@ export default async function Layout({ children }: { children: ReactNode }) {
   const locale = await getLocale()
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-      <body className={cn('relative flex min-h-svh flex-col overflow-x-hidden')}>
+      <body className={cn('relative flex h-svh flex-col overflo-hidden')}>
         <ThemeProvider attribute="class">
           <NextIntlClientProvider locale={locale}>
             <Header />
-            <main className="container mx-auto py-6 px-6 flex-1">{children}</main>
+            <main className="p-6 flex-1 container mx-auto">{children}</main>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

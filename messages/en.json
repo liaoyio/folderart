@@ -1,10 +1,31 @@
 {
-  "HomePage": {
-    "title": "Hello 👋"
+  "metaData": {
+    "title": "Folder Art Generator",
+    "description": "Folder Art is an online tool designed for macOS and Windows 11, allowing you to customize folder icons, add text, select icon styles, and choose folder styles. No software downloads required; easily create personalized folder icons and save them for use.",
+    "keywords": "macOS folder icon, Windows folder icon, custom folder icon, folder customization tool, Folder Art, online folder icon generator, icon presets, folder skins, online folder icon creation",
+    "footer": "© 2025 Folder Art. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "English",
     "zh": "中文",
     "label": "Language"
+  },
+  "Configuration": {
+    "title": "Configuration",
+    "os": "OS",
+    "text": "Text",
+    "color": "Color",
+    "selectOption": "Select an option or",
+    "clickOnFolder": "click on the folder",
+    "toChange": "to change.",
+    "iconColor": "Icon Color",
+    "download": "Download",
+    "downloading": "Downloading...",
+    "downloaded": "Downloaded",
+    "downloadFailed": "Download failed",
+    "adapt": "Adapt to Folder Style",
+    "original": "Use Original Icon Color",
+    "customIcon": "Custom Icon",
+    "icons": "Icons"
   }
 }
