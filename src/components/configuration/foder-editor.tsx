@@ -7,6 +7,7 @@ import { Folder } from '@/components/folder'
 import { useDragNDrop, useUpdatePreview } from '@/hooks'
 import { canvasToIco, canvasToPng } from '@/lib/canvas'
 import { MACOS_COLORS, WINDOWS_COLORS } from '../../lib/consts'
+import { HowToUse } from '../how-to-use'
 
 const defaultMacOs = {
   os: 'macos',
@@ -125,6 +126,8 @@ export function FolderEditor() {
         </p>
 
         <Folder loading={loading} canvasRef={canvasRef} onChangeColor={onChangeColor} />
+
+        <HowToUse os={configuration.os} />
 
       </div>
     </div>

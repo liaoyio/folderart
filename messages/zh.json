@@ -26,5 +26,25 @@
     "original": "使用原始图标颜色",
     "customIcon": "自定义图标",
     "icons": "图标"
+  },
+  "HowToUse": {
+    "title": "在 {os} 上如何使用 ?",
+    "windows": {
+      "1": "从图库中选择一个图标或 <strong>上传自己的图标</strong>。",
+      "2": "<strong>下载图标 </strong> 到你的电脑。",
+      "3": "<strong>右键点击 </strong> 要自定义的文件夹，选择 <strong>属性</strong>。",
+      "4": "进入 <strong>【自定义】</strong> 标签，点击 <strong>【更改图标】</strong>。",
+      "5": "<strong>进入 </strong> 到你下载的图标的位置，<strong>选择它</strong>。",
+      "6": "点击 <strong>【确定】</strong>，然后 <strong>【应用】</strong>，最后 <strong>【确定】</strong> 再次确认。"
+    },
+    "windowsTip": "💡 提示：使用<strong>.ico</strong>格式以获得最佳的 Windows 兼容性。",
+    "windowsDescription": "如何在 Windows 上应用自定义文件夹图标",
+    "macosDescription": "如何在 macOS 上设置自定义文件夹图标",
+    "macos": {
+      "1": "从图标库中选择一个图标，或 <strong>【上传自定义图标】 </strong>。",
+      "2": "<strong>【下载图标】</strong> 并保存到本地。",
+      "3": "在菜单栏中选择 <strong>【文件】 > 【显示简介】 </strong>。",
+      "4": "将图标 <strong>【拖拽】</strong> 到文件夹 <strong> 【简介窗口左上角】</strong> 的图标位置。"
+    }
   }
 }

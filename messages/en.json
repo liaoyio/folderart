@@ -27,5 +27,25 @@
     "original": "Use Original Icon Color",
     "customIcon": "Custom Icon",
     "icons": "Icons"
+  },
+  "HowToUse": {
+    "title": "How to use {os} ?",
+    "windows": {
+      "1": "Select an icon from the gallery or <strong>upload your own</strong>.",
+      "2": "<strong>Download</strong> the icon to your computer.",
+      "3": "<strong>Right-click</strong> the folder you want to customize and choose <strong>Properties</strong>.",
+      "4": "Go to the <strong>Customize</strong> tab and click <strong>Change Icon</strong>.",
+      "5": "<strong>Browse</strong> to the location of your downloaded icon and <strong>select it</strong>.",
+      "6": "Click <strong>OK</strong>, then <strong>Apply</strong>, and <strong>OK</strong> again to confirm."
+    },
+    "windowsTip": "💡 Tip: Use <strong>.ico</strong> format for the best compatibility with Windows.",
+    "windowsDescription": "How to Apply a Custom Folder Icon on Windows",
+    "macosDescription": "How to Apply a Custom Folder Icon on macOS",
+    "macos": {
+      "1": "Select an icon from the gallery or <strong>upload a custom one</strong>.",
+      "2": "<strong>Download</strong> the icon to your computer.",
+      "3": "In the menu bar, choose <strong>File > Get Info</strong>.",
+      "4": "<strong>Drag and drop</strong> the custom icon into the top-left corner of the info panel."
+    }
   }
 }
