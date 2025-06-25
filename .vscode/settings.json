@@ -47,5 +47,9 @@
     "scss",
     "pcss",
     "postcss"
+  ],
+  "i18n-ally.localesPaths": [
+    "messages",
+    "src/lib/i18n"
   ]
 }

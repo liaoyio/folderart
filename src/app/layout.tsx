@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { NextIntlClientProvider, useLocale } from 'next-intl'
+import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Vercel } from '@/components/analytics'
 
